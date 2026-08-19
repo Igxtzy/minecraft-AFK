@@ -9,11 +9,13 @@ PORT = 25565
 
 print("Starting Microsoft-Authenticated AFK Bot...")
 bot = mineflayer.createBot({
-    'host': SERVER_IP,
+    'host': donutsmp.net,
     'port': PORT,
-    'auth': 'microsoft',             # Tells Mineflayer to use Microsoft Official Auth
-    'username': 'your-email@outlook.com', # Use your official Microsoft Account Email
-    'version': '1.21.1'
+    'auth': 'microsoft',
+    'username': 'your-email@outlook.com',
+    'version': '1.21.1',                 # <--- Change False to '1.21.1'
+    'checkTimeoutInterval': 60000        # <--- Add this line to prevent random disconnects
+})
  
 })
 
