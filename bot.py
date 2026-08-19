@@ -13,7 +13,8 @@ bot = mineflayer.createBot({
     'port': PORT,
     'auth': 'microsoft',             # Tells Mineflayer to use Microsoft Official Auth
     'username': 'your-email@outlook.com', # Use your official Microsoft Account Email
-    'version': False 
+    'version': '1.21.1'
+ 
 })
 
 @On(bot, 'spawn')
