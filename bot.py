@@ -4,7 +4,7 @@ from javascript import require, On
 mineflayer = require('mineflayer')
 
 # CONFIGURATION
-SERVER_IP = "your.server.ip" 
+SERVER_IP = "eu.donutsmp.net" 
 PORT = 25565                 
 
 print("Starting Microsoft-Authenticated AFK Bot...")
